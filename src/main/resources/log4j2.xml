@@ -2,7 +2,7 @@
 <Configuration status="INFO">
     <Properties>
 <!--        <property name="BASE_PATH">${sys:catalina.logs}/webapp/passion_log</property>-->
-        <property name="LOG_DIR">/Users/arturmarkowski/Documents/ESDE_java_3/passion_flowers/logs</property>
+        <property name="LOG_DIR">${sys:catalina.home}/logs</property>
         <property name="ARCHIVE_LOG_DIR">${LOG_DIR}/archive</property>
         <property name="pattern_file">%d{HH:mm:ss.SSS} - %-5level %logger{5} - Method: %M; Line:  %L - %msg%n</property>
     </Properties>
